@@ -1,0 +1,40 @@
+label {
+    padding: 0 5px;
+}
+
+input[type],
+select,
+textarea {
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    display: block;
+    outline: none;
+    padding: 0 10px;
+    height: 32px;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: greenyellow;
+}
+
+textarea {
+    height: 100%;
+    resize: none;
+    padding: 10px 15px;
+}
+
+select {
+    background: black;
+    color: white;
+    border-radius: 25px;
+}
+
+[disabled] {
+    cursor: not-allowed;
+    background: #333;
+    color: #aaa;
+}

@@ -1,0 +1,26 @@
+code {
+    background: #eee;
+    border-radius: 4px;
+    color: #222;
+    padding: 1px 5px;
+    position: relative;
+    font-family: Consolas, sans-serif;
+}
+
+pre {
+    margin: 20px 0;
+    position: relative;
+}
+
+pre > code {
+    display: block;
+}
+
+pre > button {
+    border: 1px solid #aaa;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 2;
+}

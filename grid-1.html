@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid test 1</title>
+
+    <style>
+        @import './assets/css/reset/_all.css';
+
+        body {
+            padding: 15px;
+        }
+
+        .grid {
+            background: #222;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background: #eee;
+            box-shadow: 0 0 8px 4px rgba(0, 0, 0, .9);
+            padding: 15px;
+        }
+
+        .red {
+            background: red;
+            color: white;
+        }
+
+        .blue {
+            background: blue;
+            color: white;
+        }
+
+        button {
+            background: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Grid example</h1>
+<p>An example of using grid.</p>
+
+<section class="grid">
+    <article>
+        <h3>This is a title</h3>
+        <p>Lorem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima moribus
+            totalit</p>
+        <p>Mea nero sem tua prolifit maiestate santorum quis avueq mere toma na elit.</p>
+    </article>
+    <article>
+        <h3>This is anoter title with longer text to unbalance things</h3>
+        <p>Lorem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo <i>lastima
+            moribus</i> totalit. Ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo
+            lastima moribus totalit.</p>
+        <button type="button">Read more</button>
+    </article>
+    <article class="red">
+        <h3>A medium sized title to test</h3>
+        <p>Lorem ipsum dolor sit amet adipiscit consecteuer.</p>
+        <button type="button">Read more</button>
+    </article>
+    <article class="blue">
+        <h4>This we weowe rrrriwe ierrris a title</h4>
+        <p>Lorem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima moribus
+            totalit. Lorem ipsum dolor sit amet adipiscit consecteuer porfurat</p>
+        <p>Mea nero sem tua prolifit maiestate santorum quis avueq mere toma na elit.</p>
+        <p>Mea nero sem tua prolifit maiestate santorum quis avueq mere toma na elit.</p>
+        <button type="button">Read more</button>
+    </article>
+    <article class="red">
+        <h4>Asuperlongnonspacedword to break things</h4>
+        <p>Lorem ipsum dolor sit amet adipiscit rem <b>ipsum dolor sit</b> amet adipiscirem ipsum dolor sit amet
+            adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima moribus totalit. Mea nero sem tua
+            prolifit maiestate santorum quis avueq
+            mere toma na elit.</p>
+        <p>Sum sed factis!</p>
+    </article>
+    <article>
+        <h4>This is a title</h4>
+        <p>Lorem ipsum wwlamento d olor sit amet, adipiscit consecteuer: porfurat tenebris porquid sumo lastima
+            moribus
+            totalit</p>
+        <p>Lorem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima moribus
+            totalitww wee</p>
+        <p>Trwr aorem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima
+            moribus
+            totalitforem ipsum dolor sit amet adipiscit consecteuer porfurat tenebris lamento porquid sumo lastima
+            moribus totalit, ea nero sem
+            tua prolifit maiestate santorum quis avueq mere toma na elit.</p>
+    </article>
+</section>
+
+</body>
+
+</html>
